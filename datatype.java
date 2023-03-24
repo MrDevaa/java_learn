@@ -1,5 +1,3 @@
-import org.w3c.dom.views.DocumentView;
-
 class datatype 
 {
     public static void main(String a []) 
@@ -18,7 +16,7 @@ class datatype
      double d = 5.8;
      
      //character
-     char c = 'k';
+     char c = 'k';   // litterals
 
      //boolean
      boolean b = true;
