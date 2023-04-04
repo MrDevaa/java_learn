@@ -3,6 +3,27 @@ class Human
     private int age;
     private String name ;
 
+    /* Generated Getters and Setter with Soucre Action 
+     * 
+     * public in getAge() {
+     * return age;
+     * }
+     * 
+     * public void setAge(int age) {
+     * this.age = age;
+     * }
+     * 
+     * public String getName() {
+     * return name;
+     * }
+     * 
+     * public void setName(String name) {
+     * this.name = name;
+     * }
+     */
+
+
+
     // Getter
     public int getAge()
     {
@@ -15,14 +36,14 @@ class Human
         return name;
     }
 
-    // Setter
-    public void setAge(int a)
+    // Setter   
+    public void setAge(final int a)
     {
         age = a;
     }
 
 
-    public void setName(String n)
+    public void setName(final String n)
     {
         name = n;
     }
@@ -31,9 +52,9 @@ class Human
 
 public class demo {
 
-public static void main(String a[]) 
+public static void main(final String a[]) 
 {
-    Human obj = new Human();
+    final Human obj = new Human();
     obj.setAge(23);
     obj.setName("Devaa");
 
