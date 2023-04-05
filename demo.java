@@ -37,24 +37,24 @@ class Human
     }
 
     // Setter   
-    public void setAge(final int a)
+    public void setAge( int age)
     {
-        age = a;
+        this.age = age;
     }
 
 
-    public void setName(final String n)
+    public void setName( String name)
     {
-        name = n;
+        this.name = name;
     }
 }
 
 
 public class demo {
 
-public static void main(final String a[]) 
+public static void main( String a[]) 
 {
-    final Human obj = new Human();
+     Human obj = new Human();
     obj.setAge(23);
     obj.setName("Devaa");
 
