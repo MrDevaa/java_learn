@@ -3,15 +3,49 @@ class Human2
     private int age;
     private String name ;
 
-    public Human2()
+
+
+  
+
+    // public Human2()    // default contructor
+    // {
+    //     /*
+    //      * constructor : same name as a class name
+    //      * purpose: never return anything
+    //      */
+    //     age = 12;
+    //     name = "john";
+    //     }
+
+    //     public Human2(int a , String n)                                  // Parameterized Contructor
+    //     {
+    //         age = a;
+    //         name = n;
+            
+    //     }
+
+    // public Human2(int age, String name) {
+    //     this.age = age;
+    //     this.name = name;                                            // source action vscode generate constructor
+    // }
+
+
+    public Human2() 
     {
-        /*
-         * constructor : same name as a class name
-         * purpose: never return anything
-         */
         age = 12;
-        name = "john";
-        }
+        name = "jhonny";
+    }
+
+    
+    
+
+
+    // public Human2(String name) {
+    //      age = 12;
+    //     this.name = name;                                // generate contructior via souce action only name
+    // }
+
+
 
 
 
@@ -20,6 +54,7 @@ class Human2
     {
         return age;
     }
+
 
 
     public String getName()
@@ -46,7 +81,9 @@ public class constructor {
 public static void main( String a[]) 
 {
      Human2 obj = new Human2();
+    //  Human2 obj1 = new Human2( "navin");
      System.out.println(obj.getName() + " : " + obj.getAge());
+    //  System.out.println(obj1.getName() + " : " + obj.getAge());
 
     // obj.setAge(23);
     // obj.setName("Devaa");
