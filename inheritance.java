@@ -1,4 +1,20 @@
 
+class A
+{
+
+}
+
+class B 
+{
+
+}
+
+
+class C  extends A,B //  in java mutplie inheritance not work
+{
+
+}
+
 
 public class inheritance 
 {

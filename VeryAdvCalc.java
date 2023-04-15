@@ -7,21 +7,3 @@ public class VeryAdvCalc extends AdvancedCalc
 }
 
 
-
-/*  comprendre le systeme de extend donc: 
-
-                                        _______________1*
-                                        --------------2*
-                                        |    Calc     | 
-                                        |     |       |
-                                        |     |       |
-                                        |     |       |
-                                        | AdvancdCalc |                // 1. Multilevel inheritance
-                                        | ------------|                // 2. Singlelevel inheritance
-                                        |     |       |
-                                        |     |       |
-                                        |     |       |
-                                        | VeryAdvCalc |
-                                        |             |
-                                        _______________
-*/

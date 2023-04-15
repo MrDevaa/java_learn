@@ -1,0 +1,63 @@
+/*
+ * Interview question : Do we support multiple inheritance in java ?
+ * The answer is NOOOOOOOOOOOO !
+ * 
+ * JAVA DOES NOT SUPPORT MULTIPLE INHERITANCE
+ */
+
+
+
+/*  comprendre le systeme de extend donc: 
+
+                                        _______________1*
+                                        --------------2*
+                                        |    Calc     | 
+                                        |     |       |
+                                        |     |       |
+                                        |     |       |
+                                        | AdvancdCalc |                     // 1. Multilevel inheritance
+                                        | ------------|                      // 2. Singlelevel inheritance
+                                        |     |       |
+                                        |     |       |
+                                        |     |       |
+                                        | VeryAdvCalc |
+                                        |             |
+                                        _______________
+
+
+
+
+
+(parent) x()
+    A           A   (abc)
+
+    |           |
+(child)
+    B  y()         B   show()
+
+(parent)            -> obj.show() // work
+                    -> obj adc() // work
+    |           
+(child)
+    C  z()
+    
+ -> obj.z()
+ -> obj.y()         // all works
+ -> obj.x()
+
+
+            show()              x()
+            y()                 y()
+                A               B                       // in java this is not work
+                |               |
+                |               |
+                 -------C-------                        // Problème d'Ambiguité 
+                        |
+                       obj.show();
+                       obj.x();
+                       ojb.y();
+                       
+
+
+*/
+
