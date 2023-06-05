@@ -1,0 +1,21 @@
+                                            Public   |  Private
+
+    ->  same class                             YES       YES
+    ->   same package subclass                 YES       NON
+    ->   same package non-subclass             YES       NON
+     ->   different package subclass           YES       NON
+    ->   different package non-sublclass       YES       NON
+
+
+--------------------------------------------------------------------------------------------
+
+                                            Public   |  Private  | Protected  | Default
+
+    ->  same class                            YES       YES          YES            YES
+    ->  same package subclass                 YES       NON          YES            YES
+    ->  same package non-subclass             YES       NON          YES            YES
+    ->  different package subclass            YES       NON          YES            NON
+    ->  different package non-sublclass       YES       NON          NON            NON
+
+
+
