@@ -10,3 +10,6 @@ Java compiler
 ................................................
 SpringBOOT learn it
 all frameworks with java
+junit
+javafx
+etc
