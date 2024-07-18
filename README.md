@@ -3,7 +3,8 @@
 Basics of Java 
 instalisation 
 understand jdk
-etc..............;
+etc..
+
 
 
 Java compiler
