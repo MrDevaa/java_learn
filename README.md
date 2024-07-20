@@ -9,7 +9,4 @@ etc..
 
 Java compiler
 SpringBOOT learn it
-all frameworks with java
-junit
-javafx
-etc
+all frameworks with java junit javaC etc
