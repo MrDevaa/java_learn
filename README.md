@@ -5,5 +5,5 @@ instalisation
 understand jdk
 
 Java compiler
-SpringBOOT learn it, Spring
-all frameworks with java junit javaC , MAven, etc.......
+SpringBoot - 3 learn it, Spring
+all frameworks with java junit javaC , Maven
